@@ -1,0 +1,58 @@
+.main {
+    max-width: 1152px;
+    margin: 0 auto;
+    font-family: 'Heebo', sans-serif;
+}
+
+/* navbar section */
+.nav {
+    padding-top: 27px;
+}
+
+.nav-link  {
+    font-size: 20px;
+    font-weight: 500;
+    color: black
+}
+
+.nav-link:hover  {
+    color: black
+}
+
+/* "Hi" section */
+
+.hi-section {
+    height: 525px;
+}
+
+.hi-section h1 {
+    font-size: 44px;
+    font-weight: 700;
+    margin-top: 158px;
+    width: 506px;
+    height: 105px;
+}
+
+.hi-section p {
+    color: #21243D;
+    padding-top: 40px;
+    height: 66px;
+    width: 510px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.hi-section button {
+    position: absolute;
+    border: none !important;
+    color: white;
+    border-radius: 2px;
+    width: 208px;
+    height: 47px;
+    background-color: #FF6464;
+    font-weight: 500;
+    margin-top: 47px;
+}
