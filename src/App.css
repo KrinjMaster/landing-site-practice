@@ -1,58 +1,85 @@
-.main {
-    max-width: 1152px;
-    margin: 0 auto;
-    font-family: 'Heebo', sans-serif;
+body {
+    height: 2041px;
 }
 
-/* navbar section */
-.nav {
+ul {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: end;
+    margin-right: 60px;
     padding-top: 27px;
-}
-
-.nav-link  {
-    font-size: 20px;
-    font-weight: 500;
-    color: black
-}
-
-.nav-link:hover  {
-    color: black
-}
-
-/* "Hi" section */
-
-.hi-section {
-    height: 525px;
-}
-
-.hi-section h1 {
-    font-size: 44px;
-    font-weight: 700;
-    margin-top: 158px;
-    width: 506px;
-    height: 105px;
-}
-
-.hi-section p {
-    color: #21243D;
-    padding-top: 40px;
-    height: 66px;
-    width: 510px;
+    gap: 33px;
+    list-style: none;
     font-family: 'Heebo';
     font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
+    font-weight: 500;
+    z-index: 10;
+}
+.footer a {
+    color:  #000000;
+    text-decoration: none;
 }
 
-.hi-section button {
+.wrapper {
+    max-width: 1152px;
+    height: 2041px;
+    background-color: #E5E5E5;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 856px;
     position: absolute;
-    border: none !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2041px;
+}
+
+.container-text {
+    font-family: 'Heebo';
+    font-style: normal;
+}
+
+.container-text h1 {
+    margin-top: 228px;
+    font-weight: 700;
+    font-size: 44px;
+}
+
+.container-text p {
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.container-text button {
     color: white;
-    border-radius: 2px;
     width: 208px;
     height: 47px;
-    background-color: #FF6464;
     font-weight: 500;
-    margin-top: 47px;
+    font-size: 20px;
+    background: #FF6464;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+}
+
+.container-text img {
+    position: absolute;
+    right: 0;
+    top: 210px;
+    z-index: 1;
+}
+
+#circle {
+    background-color: #EDF7FA;
+    position: absolute;
+    top: 223px;
+    right: 0;
+    border-radius: 50%;
+    width: 243px;
+    height: 243px;
+    z-index: 0;
 }
