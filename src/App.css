@@ -9,7 +9,7 @@ body {
     margin: 0 auto;
 }
 
-/* footer  */
+/* navbar  */
 ul {
     display: flex;
     position: relative;
@@ -180,4 +180,96 @@ ul {
     border:  none;
     height: 295px;
     width: 418px;
+}
+
+/* feautured works section */
+
+.feutured-works {
+    font-family: 'Heebo';
+    font-style: normal;
+    height: 785px;
+    width: 856px;
+    position: absolute;
+    top: 990px;
+}
+
+#title {
+    padding-top: 30px;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.work1 {
+    margin-top: 44px;
+    display: flex;
+    height: 180px;
+}
+
+.text {
+    padding-left: 18px;
+    display: flex;
+    flex-direction: column;;
+}
+
+.text h1 {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.text h2 {
+    background-color: #000000;
+    color: #FFFFFF;
+    border-radius: 16px;
+    width: 62px;
+    height: 23px;
+    font-weight: 900;
+    font-size: 18px;
+    text-align: center;
+}
+
+.text p {
+    font-weight: 400;
+    font-size: 16px;
+    height: 34px;
+}
+
+#u2020 {
+    padding-top: 8px;
+    display: flex;
+    gap: 26px;
+}
+
+#u2020 h3 {
+    color: #8695A4;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.work2 {
+    margin-top: 31px;
+    margin-top: 44px;
+    display: flex;
+    height: 180px;
+}
+
+/* footer  */
+
+.footer-down {
+    margin-top: 2041px;
+}
+
+.icons {
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    position: absolute;
+    display: flex;
+    gap: 35px;
+    bottom: 101px;
+}
+
+.footer-down p {
+    position: absolute;
+    bottom: 54px;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%); 
 }
